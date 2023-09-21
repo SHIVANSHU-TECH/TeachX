@@ -1,0 +1,32 @@
+.hero{
+  background-color: lightcyan;
+  border: 2px solid lightcyan;
+  opacity: 0.82;
+  border-radius: 20px;
+  /* box: padding-box; */
+  box-shadow: 20px 20px 50px green;
+}
+
+.hero__content h2 {
+  font-weight: 600;
+  line-height: 55px;
+}
+
+.hero__content {
+  padding-top: 80px;
+}
+.search input {
+  border: none;
+  outline: none;
+  padding: 7px 10%;
+}
+
+.search {
+  width: 100%;
+  border: 1px solid #17bf9d44;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 50px;
+  margin-top: 20px;
+}
